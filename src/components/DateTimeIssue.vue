@@ -1,7 +1,6 @@
 <template>
   <ion-page>
     <ion-content>
-      <ion-label>Start:</ion-label>
       <ion-datetime
         v-model="startIsoTime"
         :min="minStartIsoIsoTime"
