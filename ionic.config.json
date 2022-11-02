@@ -1,0 +1,8 @@
+{
+  "name": "Datetime missing time values",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue",
+  "id": "786e62f7"
+}
