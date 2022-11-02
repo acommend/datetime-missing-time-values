@@ -5,12 +5,7 @@
         v-model="startIsoTime"
         :min="minStartIsoIsoTime"
         :max="maxStartIsoTime"
-      >
-      </ion-datetime>
-      <ion-datetime
-        v-model="endIsoTime"
-        :min="minEndIsoTime"
-        :max="maxEndIsoTime"
+        hourCycle="h12"
       >
       </ion-datetime>
     </ion-content>
@@ -33,9 +28,6 @@ export default defineComponent({
       minStartIsoTime: "2022-11-02T11:14:00",
       maxStartIsoTime: "2022-11-02T12:14:00",
       startIsoTime: "2022-11-02T11:14:00",
-      minEndIsoTime: "2022-11-02T11:15:00",
-      maxEndIsoTime: undefined,
-      endIsoTime: "2022-11-02T12:14:00",
     };
   },
 });
